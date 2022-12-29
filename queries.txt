@@ -1,0 +1,8 @@
+//producto con mayor cantidad en stock
+SELECT nombre, MAX(cantidad) cantidad FROM products;
+
+//producto más vendido
+SELECT products.nombre, SUM(sales.cantidad) as cantidad
+    FROM sales JOIN products ON sales.producto_id = products.id
+    GROUP BY products.id
+    ORDER BY SUM(sales.cantidad) DESC LIMIT 1;
