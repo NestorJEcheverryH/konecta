@@ -335,16 +335,6 @@ return [
             'url'  => '/sales',
             'icon' => 'fas fa-fw fa-lock',
         ],
-        [
-            'text' => 'Productos con más stock',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text' => 'Productos más vendidos',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
         /*[
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
